@@ -32,6 +32,7 @@
 		48EA08DF1E6FC2EB00125A2D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EA08DE1E6FC2EB00125A2D /* CoreImage.framework */; };
 		48EA08E21E6FC4BD00125A2D /* ViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08E11E6FC4BD00125A2D /* ViewTool.m */; };
 		48EA08E51E6FC4FF00125A2D /* JSONTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08E41E6FC4FF00125A2D /* JSONTool.m */; };
+		48EA08E81E6FC5F000125A2D /* UIView+LYS.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08E71E6FC5F000125A2D /* UIView+LYS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,8 @@
 		48EA08E11E6FC4BD00125A2D /* ViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTool.m; sourceTree = "<group>"; };
 		48EA08E31E6FC4FF00125A2D /* JSONTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONTool.h; sourceTree = "<group>"; };
 		48EA08E41E6FC4FF00125A2D /* JSONTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONTool.m; sourceTree = "<group>"; };
+		48EA08E61E6FC5F000125A2D /* UIView+LYS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYS.h"; sourceTree = "<group>"; };
+		48EA08E71E6FC5F000125A2D /* UIView+LYS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYS.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 				48CCBA4C1E6EF3E30000986F /* UIView+Size.m */,
 				48CCBA6F1E6FA2550000986F /* NSObject+ScaleFrame.h */,
 				48CCBA701E6FA2550000986F /* NSObject+ScaleFrame.m */,
+				48EA08E61E6FC5F000125A2D /* UIView+LYS.h */,
+				48EA08E71E6FC5F000125A2D /* UIView+LYS.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 				48EA08D01E6FC08800125A2D /* FileTools.m in Sources */,
 				48CCBA6C1E6F99710000986F /* TypeTransformTool.m in Sources */,
 				48CCBA381E6EF3A90000986F /* AppDelegate.m in Sources */,
+				48EA08E81E6FC5F000125A2D /* UIView+LYS.m in Sources */,
 				48CCBA351E6EF3A90000986F /* main.m in Sources */,
 				48CCBA711E6FA2550000986F /* NSObject+ScaleFrame.m in Sources */,
 				48CCBA581E6F8E8F0000986F /* EncryptTool.m in Sources */,

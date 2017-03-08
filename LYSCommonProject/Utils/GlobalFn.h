@@ -1,13 +1,50 @@
 //-------------------获取设备大小-------------------------
 // NavBar高度
 #define NavigationBar_HEIGHT 44
+
 // tabBar的高度
 #define TabBar_HEIGHT 49.f
-//获取屏幕 宽度、高度
-#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
-#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
 // 状态栏的高度
-#define statusBarH [UIApplication sharedApplication].statusBarFrame.size.height
+#define StatusBarH [UIApplication sharedApplication].statusBarFrame.size.height
+
+// 状态栏底部y坐标
+#define OffsetStateBarHeight    ((DEVICE_OS_VERSION_VALUE >= 7.0)? StateBarHeight : 0.f)
+
+
+// 屏幕高度
+#define ScreenHeight            [[UIScreen mainScreen] bounds].size.height
+
+// 屏幕宽度
+#define ScreenWidth             [[UIScreen mainScreen] bounds].size.width
+
+// 屏幕可操作高度
+#define MainHeight              ((DEVICE_OS_VERSION_VALUE >= 7.0)? ScreenHeight : (ScreenHeight - StatusBarH))
+
+// 屏幕可操作宽度
+#define MainWidth               ScreenWidth
+
+// 6P、6sP
+#define IS_iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+// 6、6s
+#define IS_iPhone6     ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+// 5、5s
+#define IS_iPhone5     ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+// 3g、4、4s
+#define IS_iPhone4     ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+
+// 是否是Retina屏幕
+#define IS_Retina      ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? [[UIScreen mainScreen] currentMode].size.width > 320 : NO)
+
+// app版本号
+#define DEVICE_APP_VERSION       (NSString *)[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+// app Build版本号
+#define DEVICE_APP_BUILD         (NSString *)[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+
+// 系统版本号（string）
+#define DEVICE_OS_VERSION        [[UIDevice currentDevice] systemVersion]
+// 系统版本号（float）
+#define DEVICE_OS_VERSION_VALUE  [DEVICE_OS_VERSION floatValue]
 
 //-------------------获取设备大小-------------------------
 
@@ -198,5 +235,91 @@ static inline void st_dispatch_async_main_after(NSTimeInterval ti, dispatch_bloc
 
 // 版本号
 #define appVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+
+#define APPLICATION   [UIApplication sharedApplication]
+#define APPDLE        (AppDelegate*)[APPLICATION delegate]
+
+
+/***frame 相关**/
+#define FRAME_ORIGIN(aFrame)              ((aFrame).origin)
+#define FRAME_X(aFrame)                   ((aFrame).origin.x)
+#define FRAME_Y(aFrame)                   ((aFrame).origin.y)
+
+#define FRAME_SIZE(aFrame)                ((aFrame).size)
+#define FRAME_HEIGHT(aFrame)              ((aFrame).size.height)
+#define FRAME_WIDTH(aFrame)               ((aFrame).size.width)
+
+/*修改frame对象的x、y、width、height属性值*/
+#define FRAME_CHANGE_X(aFrame,x)          CGRectMake(x, (aFrame).origin.y, (aFrame).size.width, (aFrame).size.height)
+#define FRAME_CHANGE_Y(aFrame,y)          CGRectMake((aFrame).origin.x, y, (aFrame).size.width, (aFrame).size.height)
+#define FRAME_CHANGE_WIDTH(aFrame,w)      CGRectMake((aFrame).origin.x, (aFrame).origin.y, w, (aFrame).size.height)
+#define FRAME_CHANGE_HEIGHT(aFrame,h)     CGRectMake((aFrame).origin.x, (aFrame).origin.y, (aFrame).size.width, h)
+
+// 向左移动offset位移后得到frame对象
+#define FRAME_MOVE_Left(aFrame,offset)    CGRectMake((aFrame).origin.x-(offset), (aFrame).origin.y, (aFrame).size.width, (aFrame).size.height)
+// 向右移动offset位移后得到frame对象
+#define FRAME_MOVE_Right(aFrame,offset)   CGRectMake((aFrame).origin.x+(offset), (aFrame).origin.y, (aFrame).size.width, (aFrame).size.height)
+// 向上移动offset位移后得到frame对象
+#define FRAME_MOVE_Up(aFrame,offset)      CGRectMake((aFrame).origin.x, (aFrame).origin.y-(offset), (aFrame).size.width, (aFrame).size.height)
+// 向下移动offset位移后得到frame对象
+#define FRAME_MOVE_Down(aFrame,offset)    CGRectMake((aFrame).origin.x, (aFrame).origin.y+(offset), (aFrame).size.width, (aFrame).size.height)
+
+#define VIEW_X_Right(aView)      ((aView).frame.origin.x + (aView).frame.size.width)  // 视图右边界x坐标
+#define VIEW_Y_Bottom(aView)     ((aView).frame.origin.y + (aView).frame.size.height) // 视图底部y坐标
+
+//Center相关
+#define VIEW_CENTER(aView)       ((aView).center)
+#define VIEW_CENTER_X(aView)     ((aView).center.x)
+#define VIEW_CENTER_Y(aView)     ((aView).center.y)
+
+//字体相关
+#define FONT_SIZE(f)            [UIFont systemFontOfSize:(f)]
+#define FONT_BOLD_SIZE(f)       [UIFont boldSystemFontOfSize:(f)]
+#define FONT_ITALIC_SIZE(f)     [UIFont italicSystemFontOfSize:(f)]
+#define IS_SmallScreen (IS_iPhone5 || IS_iPhone4)
+
+#define MaxFontSize    (IS_SmallScreen ? 21.f : 25.f )
+#define LagerFontSize  (IS_SmallScreen ? 17.f : 19.f )
+#define BigFontSize    (IS_SmallScreen ? 15.f : 17.f )
+#define NormalFontSize (IS_SmallScreen ? 13.f : 15.f )
+#define SmallFontSize  (IS_SmallScreen ? 11.f : 13.f )
+#define MinFontSize    (IS_SmallScreen ? 9.f  : 11.f )
+
+
+//颜色相关
+#define COLOR_Clear           [UIColor clearColor]
+#define COLOR_White           [UIColor whiteColor]
+#define COLOR_Black           [UIColor blackColor]
+#define COLOR_Red             [UIColor redColor]
+#define COLOR_DarkGray        [UIColor darkGrayColor]
+#define COLOR_LightGray       [UIColor lightGrayColor]
+#define COLOR_GrayColor       [UIColor grayColor]
+#define COLOR_Green           [UIColor greenColor]
+#define COLOR_BlueColor       [UIColor blueColor]
+#define COLOR_Cyan            [UIColor cyanColor]
+#define COLOR_Yellow          [UIColor yellowColor]
+#define COLOR_Magenta         [UIColor magentaColor]
+#define COLOR_Orange          [UIColor orangeColor]
+#define COLOR_Purple          [UIColor purpleColor]
+#define COLOR_Brown           [UIColor brownColor]
+
+// 字符串相关
+#define StrOfInterger(interger)  [NSString stringWithFormat:@"%ld",(long)(interger)]
+#define StrOfFloat(float)        [NSString stringWithFormat:@"%f",(float)]
+
+// Image相关
+#define IMG_Name(imgName)        [UIImage imageNamed:(imgName)]
+#define IMG_ImgWidth(img)        ((img).size.width)
+#define IMG_ImgHeight(img)       ((img).size.height)
+
+
+// 校验相关
+#define STRINGHASVALUE(str)  (str && [str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]].length > 0)
+#define IsCanUseString(str)     ((str != nil) && ![str isKindOfClass:[NSNull class]] && [str isKindOfClass:[NSString class]] && [str length] > 0 )
+#define IsCanUseArray(arr)      ( arr && (arr != nil) && ![arr isKindOfClass:[NSNull class]] )
+#define IsCanUseDic(dic)        ( dic && (dic != nil) && ![dic isKindOfClass:[NSNull class]] )
+#define IsCanUseObj(obj)        ( obj && (obj != nil) && ![obj isKindOfClass:[NSNull class]] )
+#define IsNullClass(class)      [class isKindOfClass:[NSNull class]]
 
 
