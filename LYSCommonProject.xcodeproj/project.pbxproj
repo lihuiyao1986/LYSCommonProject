@@ -24,6 +24,9 @@
 		48CCBA691E6F941A0000986F /* CookieTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA681E6F941A0000986F /* CookieTool.m */; };
 		48CCBA6C1E6F99710000986F /* TypeTransformTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA6B1E6F99710000986F /* TypeTransformTool.m */; };
 		48CCBA711E6FA2550000986F /* NSObject+ScaleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA701E6FA2550000986F /* NSObject+ScaleFrame.m */; };
+		48D661F21E7009BF00BEA9C0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 48D661EC1E7009BF00BEA9C0 /* LICENSE */; };
+		48D661F31E7009BF00BEA9C0 /* NinaSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D661EF1E7009BF00BEA9C0 /* NinaSelectionView.m */; };
+		48D661F41E7009BF00BEA9C0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 48D661F11E7009BF00BEA9C0 /* README.md */; };
 		48EA08D01E6FC08800125A2D /* FileTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08CF1E6FC08800125A2D /* FileTools.m */; };
 		48EA08D31E6FC13600125A2D /* StringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08D21E6FC13600125A2D /* StringTool.m */; };
 		48EA08D61E6FC1AF00125A2D /* DateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08D51E6FC1AF00125A2D /* DateTool.m */; };
@@ -71,6 +74,11 @@
 		48CCBA6E1E6F9EC80000986F /* GlobalFn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalFn.h; sourceTree = "<group>"; };
 		48CCBA6F1E6FA2550000986F /* NSObject+ScaleFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ScaleFrame.h"; sourceTree = "<group>"; };
 		48CCBA701E6FA2550000986F /* NSObject+ScaleFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ScaleFrame.m"; sourceTree = "<group>"; };
+		48D661EC1E7009BF00BEA9C0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		48D661EE1E7009BF00BEA9C0 /* NinaSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinaSelectionView.h; sourceTree = "<group>"; };
+		48D661EF1E7009BF00BEA9C0 /* NinaSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinaSelectionView.m; sourceTree = "<group>"; };
+		48D661F01E7009BF00BEA9C0 /* UIParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIParameter.h; sourceTree = "<group>"; };
+		48D661F11E7009BF00BEA9C0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		48EA08CE1E6FC08800125A2D /* FileTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTools.h; sourceTree = "<group>"; };
 		48EA08CF1E6FC08800125A2D /* FileTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTools.m; sourceTree = "<group>"; };
 		48EA08D11E6FC13600125A2D /* StringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringTool.h; sourceTree = "<group>"; };
@@ -122,6 +130,7 @@
 		48CCBA321E6EF3A90000986F /* LYSCommonProject */ = {
 			isa = PBXGroup;
 			children = (
+				48D661EA1E7009BF00BEA9C0 /* Vendor */,
 				48CCBA4F1E6F8D960000986F /* Utils */,
 				48CCBA4A1E6EF3C80000986F /* Category */,
 				48CCBA361E6EF3A90000986F /* AppDelegate.h */,
@@ -208,6 +217,34 @@
 			path = GTMBase64;
 			sourceTree = "<group>";
 		};
+		48D661EA1E7009BF00BEA9C0 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				48D661EB1E7009BF00BEA9C0 /* NinaSelectionView */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		48D661EB1E7009BF00BEA9C0 /* NinaSelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				48D661EC1E7009BF00BEA9C0 /* LICENSE */,
+				48D661ED1E7009BF00BEA9C0 /* NinaSelectionView */,
+				48D661F11E7009BF00BEA9C0 /* README.md */,
+			);
+			path = NinaSelectionView;
+			sourceTree = "<group>";
+		};
+		48D661ED1E7009BF00BEA9C0 /* NinaSelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				48D661EE1E7009BF00BEA9C0 /* NinaSelectionView.h */,
+				48D661EF1E7009BF00BEA9C0 /* NinaSelectionView.m */,
+				48D661F01E7009BF00BEA9C0 /* UIParameter.h */,
+			);
+			path = NinaSelectionView;
+			sourceTree = "<group>";
+		};
 		48EA08DD1E6FC2EB00125A2D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +314,7 @@
 			files = (
 				48CCBA431E6EF3A90000986F /* LaunchScreen.storyboard in Resources */,
 				48CCBA401E6EF3A90000986F /* Assets.xcassets in Resources */,
+				48D661F21E7009BF00BEA9C0 /* LICENSE in Resources */,
 				48CCBA3E1E6EF3A90000986F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,11 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D661F31E7009BF00BEA9C0 /* NinaSelectionView.m in Sources */,
 				48CCBA521E6F8DA90000986F /* PassWordTool.m in Sources */,
 				48CCBA3B1E6EF3A90000986F /* ViewController.m in Sources */,
 				48EA08E21E6FC4BD00125A2D /* ViewTool.m in Sources */,
 				48CCBA631E6F91870000986F /* NSString+MD5.m in Sources */,
 				48EA08D01E6FC08800125A2D /* FileTools.m in Sources */,
+				48D661F41E7009BF00BEA9C0 /* README.md in Sources */,
 				48CCBA6C1E6F99710000986F /* TypeTransformTool.m in Sources */,
 				48CCBA381E6EF3A90000986F /* AppDelegate.m in Sources */,
 				48EA08E81E6FC5F000125A2D /* UIView+LYS.m in Sources */,
