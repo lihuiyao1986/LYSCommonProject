@@ -24,6 +24,14 @@
 		48CCBA691E6F941A0000986F /* CookieTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA681E6F941A0000986F /* CookieTool.m */; };
 		48CCBA6C1E6F99710000986F /* TypeTransformTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA6B1E6F99710000986F /* TypeTransformTool.m */; };
 		48CCBA711E6FA2550000986F /* NSObject+ScaleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA701E6FA2550000986F /* NSObject+ScaleFrame.m */; };
+		48EA08D01E6FC08800125A2D /* FileTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08CF1E6FC08800125A2D /* FileTools.m */; };
+		48EA08D31E6FC13600125A2D /* StringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08D21E6FC13600125A2D /* StringTool.m */; };
+		48EA08D61E6FC1AF00125A2D /* DateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08D51E6FC1AF00125A2D /* DateTool.m */; };
+		48EA08D91E6FC26600125A2D /* ColorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08D81E6FC26600125A2D /* ColorTool.m */; };
+		48EA08DC1E6FC2C600125A2D /* ImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08DB1E6FC2C600125A2D /* ImageTool.m */; };
+		48EA08DF1E6FC2EB00125A2D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EA08DE1E6FC2EB00125A2D /* CoreImage.framework */; };
+		48EA08E21E6FC4BD00125A2D /* ViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08E11E6FC4BD00125A2D /* ViewTool.m */; };
+		48EA08E51E6FC4FF00125A2D /* JSONTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08E41E6FC4FF00125A2D /* JSONTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +70,21 @@
 		48CCBA6E1E6F9EC80000986F /* GlobalFn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalFn.h; sourceTree = "<group>"; };
 		48CCBA6F1E6FA2550000986F /* NSObject+ScaleFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ScaleFrame.h"; sourceTree = "<group>"; };
 		48CCBA701E6FA2550000986F /* NSObject+ScaleFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ScaleFrame.m"; sourceTree = "<group>"; };
+		48EA08CE1E6FC08800125A2D /* FileTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTools.h; sourceTree = "<group>"; };
+		48EA08CF1E6FC08800125A2D /* FileTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTools.m; sourceTree = "<group>"; };
+		48EA08D11E6FC13600125A2D /* StringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringTool.h; sourceTree = "<group>"; };
+		48EA08D21E6FC13600125A2D /* StringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringTool.m; sourceTree = "<group>"; };
+		48EA08D41E6FC1AF00125A2D /* DateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTool.h; sourceTree = "<group>"; };
+		48EA08D51E6FC1AF00125A2D /* DateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTool.m; sourceTree = "<group>"; };
+		48EA08D71E6FC26600125A2D /* ColorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTool.h; sourceTree = "<group>"; };
+		48EA08D81E6FC26600125A2D /* ColorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTool.m; sourceTree = "<group>"; };
+		48EA08DA1E6FC2C600125A2D /* ImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTool.h; sourceTree = "<group>"; };
+		48EA08DB1E6FC2C600125A2D /* ImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTool.m; sourceTree = "<group>"; };
+		48EA08DE1E6FC2EB00125A2D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		48EA08E01E6FC4BD00125A2D /* ViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTool.h; sourceTree = "<group>"; };
+		48EA08E11E6FC4BD00125A2D /* ViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTool.m; sourceTree = "<group>"; };
+		48EA08E31E6FC4FF00125A2D /* JSONTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONTool.h; sourceTree = "<group>"; };
+		48EA08E41E6FC4FF00125A2D /* JSONTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48EA08DF1E6FC2EB00125A2D /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +104,7 @@
 			children = (
 				48CCBA321E6EF3A90000986F /* LYSCommonProject */,
 				48CCBA311E6EF3A90000986F /* Products */,
+				48EA08DD1E6FC2EB00125A2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +173,20 @@
 				48CCBA681E6F941A0000986F /* CookieTool.m */,
 				48CCBA6A1E6F99710000986F /* TypeTransformTool.h */,
 				48CCBA6B1E6F99710000986F /* TypeTransformTool.m */,
+				48EA08CE1E6FC08800125A2D /* FileTools.h */,
+				48EA08CF1E6FC08800125A2D /* FileTools.m */,
+				48EA08D11E6FC13600125A2D /* StringTool.h */,
+				48EA08D21E6FC13600125A2D /* StringTool.m */,
+				48EA08D41E6FC1AF00125A2D /* DateTool.h */,
+				48EA08D51E6FC1AF00125A2D /* DateTool.m */,
+				48EA08D71E6FC26600125A2D /* ColorTool.h */,
+				48EA08D81E6FC26600125A2D /* ColorTool.m */,
+				48EA08DA1E6FC2C600125A2D /* ImageTool.h */,
+				48EA08DB1E6FC2C600125A2D /* ImageTool.m */,
+				48EA08E01E6FC4BD00125A2D /* ViewTool.h */,
+				48EA08E11E6FC4BD00125A2D /* ViewTool.m */,
+				48EA08E31E6FC4FF00125A2D /* JSONTool.h */,
+				48EA08E41E6FC4FF00125A2D /* JSONTool.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -162,6 +201,14 @@
 				48CCBA611E6F91870000986F /* NSString+MD5.m */,
 			);
 			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		48EA08DD1E6FC2EB00125A2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48EA08DE1E6FC2EB00125A2D /* CoreImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +285,9 @@
 			files = (
 				48CCBA521E6F8DA90000986F /* PassWordTool.m in Sources */,
 				48CCBA3B1E6EF3A90000986F /* ViewController.m in Sources */,
+				48EA08E21E6FC4BD00125A2D /* ViewTool.m in Sources */,
 				48CCBA631E6F91870000986F /* NSString+MD5.m in Sources */,
+				48EA08D01E6FC08800125A2D /* FileTools.m in Sources */,
 				48CCBA6C1E6F99710000986F /* TypeTransformTool.m in Sources */,
 				48CCBA381E6EF3A90000986F /* AppDelegate.m in Sources */,
 				48CCBA351E6EF3A90000986F /* main.m in Sources */,
@@ -247,9 +296,14 @@
 				48CCBA4D1E6EF3E30000986F /* UIView+Size.m in Sources */,
 				48CCBA691E6F941A0000986F /* CookieTool.m in Sources */,
 				48CCBA551E6F8DF90000986F /* KeychainTool.m in Sources */,
+				48EA08D31E6FC13600125A2D /* StringTool.m in Sources */,
 				48CCBA661E6F91CC0000986F /* NSData+AES.m in Sources */,
+				48EA08E51E6FC4FF00125A2D /* JSONTool.m in Sources */,
 				48CCBA621E6F91870000986F /* GTMBase64.m in Sources */,
+				48EA08DC1E6FC2C600125A2D /* ImageTool.m in Sources */,
+				48EA08D61E6FC1AF00125A2D /* DateTool.m in Sources */,
 				48CCBA5B1E6F8EFB0000986F /* RSAEncryptorTool.m in Sources */,
+				48EA08D91E6FC26600125A2D /* ColorTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
