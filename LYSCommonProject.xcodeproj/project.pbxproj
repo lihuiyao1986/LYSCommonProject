@@ -21,6 +21,9 @@
 		48CCBA621E6F91870000986F /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA5E1E6F91870000986F /* GTMBase64.m */; };
 		48CCBA631E6F91870000986F /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA611E6F91870000986F /* NSString+MD5.m */; };
 		48CCBA661E6F91CC0000986F /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA651E6F91CC0000986F /* NSData+AES.m */; };
+		48CCBA691E6F941A0000986F /* CookieTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA681E6F941A0000986F /* CookieTool.m */; };
+		48CCBA6C1E6F99710000986F /* TypeTransformTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA6B1E6F99710000986F /* TypeTransformTool.m */; };
+		48CCBA711E6FA2550000986F /* NSObject+ScaleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA701E6FA2550000986F /* NSObject+ScaleFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,14 @@
 		48CCBA611E6F91870000986F /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		48CCBA641E6F91CC0000986F /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
 		48CCBA651E6F91CC0000986F /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		48CCBA671E6F941A0000986F /* CookieTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookieTool.h; sourceTree = "<group>"; };
+		48CCBA681E6F941A0000986F /* CookieTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookieTool.m; sourceTree = "<group>"; };
+		48CCBA6A1E6F99710000986F /* TypeTransformTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeTransformTool.h; sourceTree = "<group>"; };
+		48CCBA6B1E6F99710000986F /* TypeTransformTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeTransformTool.m; sourceTree = "<group>"; };
+		48CCBA6D1E6F9E9F0000986F /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		48CCBA6E1E6F9EC80000986F /* GlobalFn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalFn.h; sourceTree = "<group>"; };
+		48CCBA6F1E6FA2550000986F /* NSObject+ScaleFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ScaleFrame.h"; sourceTree = "<group>"; };
+		48CCBA701E6FA2550000986F /* NSObject+ScaleFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ScaleFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +124,8 @@
 				48CCBA651E6F91CC0000986F /* NSData+AES.m */,
 				48CCBA4B1E6EF3E30000986F /* UIView+Size.h */,
 				48CCBA4C1E6EF3E30000986F /* UIView+Size.m */,
+				48CCBA6F1E6FA2550000986F /* NSObject+ScaleFrame.h */,
+				48CCBA701E6FA2550000986F /* NSObject+ScaleFrame.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -120,6 +133,8 @@
 		48CCBA4F1E6F8D960000986F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				48CCBA6E1E6F9EC80000986F /* GlobalFn.h */,
+				48CCBA6D1E6F9E9F0000986F /* Singleton.h */,
 				48CCBA5C1E6F91870000986F /* GTMBase64 */,
 				48CCBA501E6F8DA90000986F /* PassWordTool.h */,
 				48CCBA511E6F8DA90000986F /* PassWordTool.m */,
@@ -129,6 +144,10 @@
 				48CCBA571E6F8E8F0000986F /* EncryptTool.m */,
 				48CCBA591E6F8EFB0000986F /* RSAEncryptorTool.h */,
 				48CCBA5A1E6F8EFB0000986F /* RSAEncryptorTool.m */,
+				48CCBA671E6F941A0000986F /* CookieTool.h */,
+				48CCBA681E6F941A0000986F /* CookieTool.m */,
+				48CCBA6A1E6F99710000986F /* TypeTransformTool.h */,
+				48CCBA6B1E6F99710000986F /* TypeTransformTool.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -220,10 +239,13 @@
 				48CCBA521E6F8DA90000986F /* PassWordTool.m in Sources */,
 				48CCBA3B1E6EF3A90000986F /* ViewController.m in Sources */,
 				48CCBA631E6F91870000986F /* NSString+MD5.m in Sources */,
+				48CCBA6C1E6F99710000986F /* TypeTransformTool.m in Sources */,
 				48CCBA381E6EF3A90000986F /* AppDelegate.m in Sources */,
 				48CCBA351E6EF3A90000986F /* main.m in Sources */,
+				48CCBA711E6FA2550000986F /* NSObject+ScaleFrame.m in Sources */,
 				48CCBA581E6F8E8F0000986F /* EncryptTool.m in Sources */,
 				48CCBA4D1E6EF3E30000986F /* UIView+Size.m in Sources */,
+				48CCBA691E6F941A0000986F /* CookieTool.m in Sources */,
 				48CCBA551E6F8DF90000986F /* KeychainTool.m in Sources */,
 				48CCBA661E6F91CC0000986F /* NSData+AES.m in Sources */,
 				48CCBA621E6F91870000986F /* GTMBase64.m in Sources */,
@@ -386,6 +408,7 @@
 				48CCBA491E6EF3A90000986F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
