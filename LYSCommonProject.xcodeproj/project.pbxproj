@@ -14,6 +14,13 @@
 		48CCBA401E6EF3A90000986F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48CCBA3F1E6EF3A90000986F /* Assets.xcassets */; };
 		48CCBA431E6EF3A90000986F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48CCBA411E6EF3A90000986F /* LaunchScreen.storyboard */; };
 		48CCBA4D1E6EF3E30000986F /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA4C1E6EF3E30000986F /* UIView+Size.m */; };
+		48CCBA521E6F8DA90000986F /* PassWordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA511E6F8DA90000986F /* PassWordTool.m */; };
+		48CCBA551E6F8DF90000986F /* KeychainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA541E6F8DF90000986F /* KeychainTool.m */; };
+		48CCBA581E6F8E8F0000986F /* EncryptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA571E6F8E8F0000986F /* EncryptTool.m */; };
+		48CCBA5B1E6F8EFB0000986F /* RSAEncryptorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA5A1E6F8EFB0000986F /* RSAEncryptorTool.m */; };
+		48CCBA621E6F91870000986F /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA5E1E6F91870000986F /* GTMBase64.m */; };
+		48CCBA631E6F91870000986F /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA611E6F91870000986F /* NSString+MD5.m */; };
+		48CCBA661E6F91CC0000986F /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA651E6F91CC0000986F /* NSData+AES.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,21 @@
 		48CCBA441E6EF3A90000986F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48CCBA4B1E6EF3E30000986F /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
 		48CCBA4C1E6EF3E30000986F /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		48CCBA501E6F8DA90000986F /* PassWordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordTool.h; sourceTree = "<group>"; };
+		48CCBA511E6F8DA90000986F /* PassWordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordTool.m; sourceTree = "<group>"; };
+		48CCBA531E6F8DF90000986F /* KeychainTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainTool.h; sourceTree = "<group>"; };
+		48CCBA541E6F8DF90000986F /* KeychainTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainTool.m; sourceTree = "<group>"; };
+		48CCBA561E6F8E8F0000986F /* EncryptTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptTool.h; sourceTree = "<group>"; };
+		48CCBA571E6F8E8F0000986F /* EncryptTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptTool.m; sourceTree = "<group>"; };
+		48CCBA591E6F8EFB0000986F /* RSAEncryptorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptorTool.h; sourceTree = "<group>"; };
+		48CCBA5A1E6F8EFB0000986F /* RSAEncryptorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptorTool.m; sourceTree = "<group>"; };
+		48CCBA5D1E6F91870000986F /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		48CCBA5E1E6F91870000986F /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		48CCBA5F1E6F91870000986F /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		48CCBA601E6F91870000986F /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		48CCBA611E6F91870000986F /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		48CCBA641E6F91CC0000986F /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		48CCBA651E6F91CC0000986F /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +83,7 @@
 		48CCBA321E6EF3A90000986F /* LYSCommonProject */ = {
 			isa = PBXGroup;
 			children = (
+				48CCBA4F1E6F8D960000986F /* Utils */,
 				48CCBA4A1E6EF3C80000986F /* Category */,
 				48CCBA361E6EF3A90000986F /* AppDelegate.h */,
 				48CCBA371E6EF3A90000986F /* AppDelegate.m */,
@@ -86,10 +109,40 @@
 		48CCBA4A1E6EF3C80000986F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				48CCBA641E6F91CC0000986F /* NSData+AES.h */,
+				48CCBA651E6F91CC0000986F /* NSData+AES.m */,
 				48CCBA4B1E6EF3E30000986F /* UIView+Size.h */,
 				48CCBA4C1E6EF3E30000986F /* UIView+Size.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		48CCBA4F1E6F8D960000986F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				48CCBA5C1E6F91870000986F /* GTMBase64 */,
+				48CCBA501E6F8DA90000986F /* PassWordTool.h */,
+				48CCBA511E6F8DA90000986F /* PassWordTool.m */,
+				48CCBA531E6F8DF90000986F /* KeychainTool.h */,
+				48CCBA541E6F8DF90000986F /* KeychainTool.m */,
+				48CCBA561E6F8E8F0000986F /* EncryptTool.h */,
+				48CCBA571E6F8E8F0000986F /* EncryptTool.m */,
+				48CCBA591E6F8EFB0000986F /* RSAEncryptorTool.h */,
+				48CCBA5A1E6F8EFB0000986F /* RSAEncryptorTool.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		48CCBA5C1E6F91870000986F /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				48CCBA5D1E6F91870000986F /* GTMBase64.h */,
+				48CCBA5E1E6F91870000986F /* GTMBase64.m */,
+				48CCBA5F1E6F91870000986F /* GTMDefines.h */,
+				48CCBA601E6F91870000986F /* NSString+MD5.h */,
+				48CCBA611E6F91870000986F /* NSString+MD5.m */,
+			);
+			path = GTMBase64;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,10 +217,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48CCBA521E6F8DA90000986F /* PassWordTool.m in Sources */,
 				48CCBA3B1E6EF3A90000986F /* ViewController.m in Sources */,
+				48CCBA631E6F91870000986F /* NSString+MD5.m in Sources */,
 				48CCBA381E6EF3A90000986F /* AppDelegate.m in Sources */,
 				48CCBA351E6EF3A90000986F /* main.m in Sources */,
+				48CCBA581E6F8E8F0000986F /* EncryptTool.m in Sources */,
 				48CCBA4D1E6EF3E30000986F /* UIView+Size.m in Sources */,
+				48CCBA551E6F8DF90000986F /* KeychainTool.m in Sources */,
+				48CCBA661E6F91CC0000986F /* NSData+AES.m in Sources */,
+				48CCBA621E6F91870000986F /* GTMBase64.m in Sources */,
+				48CCBA5B1E6F8EFB0000986F /* RSAEncryptorTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
