@@ -36,6 +36,8 @@
 		48EA08E21E6FC4BD00125A2D /* ViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08E11E6FC4BD00125A2D /* ViewTool.m */; };
 		48EA08E51E6FC4FF00125A2D /* JSONTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08E41E6FC4FF00125A2D /* JSONTool.m */; };
 		48EA08E81E6FC5F000125A2D /* UIView+LYS.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08E71E6FC5F000125A2D /* UIView+LYS.m */; };
+		48F814F21E9C5CAA00DF0516 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F814F11E9C5CAA00DF0516 /* UITextView+Placeholder.m */; };
+		48F814F51E9C5D2A00DF0516 /* NSString+RandomKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F814F41E9C5D2A00DF0516 /* NSString+RandomKey.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +98,10 @@
 		48EA08E41E6FC4FF00125A2D /* JSONTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONTool.m; sourceTree = "<group>"; };
 		48EA08E61E6FC5F000125A2D /* UIView+LYS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYS.h"; sourceTree = "<group>"; };
 		48EA08E71E6FC5F000125A2D /* UIView+LYS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYS.m"; sourceTree = "<group>"; };
+		48F814F01E9C5CAA00DF0516 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		48F814F11E9C5CAA00DF0516 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		48F814F31E9C5D2A00DF0516 /* NSString+RandomKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RandomKey.h"; sourceTree = "<group>"; };
+		48F814F41E9C5D2A00DF0516 /* NSString+RandomKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RandomKey.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,10 @@
 				48CCBA701E6FA2550000986F /* NSObject+ScaleFrame.m */,
 				48EA08E61E6FC5F000125A2D /* UIView+LYS.h */,
 				48EA08E71E6FC5F000125A2D /* UIView+LYS.m */,
+				48F814F01E9C5CAA00DF0516 /* UITextView+Placeholder.h */,
+				48F814F11E9C5CAA00DF0516 /* UITextView+Placeholder.m */,
+				48F814F31E9C5D2A00DF0516 /* NSString+RandomKey.h */,
+				48F814F41E9C5D2A00DF0516 /* NSString+RandomKey.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -339,6 +349,7 @@
 				48CCBA351E6EF3A90000986F /* main.m in Sources */,
 				48CCBA711E6FA2550000986F /* NSObject+ScaleFrame.m in Sources */,
 				48CCBA581E6F8E8F0000986F /* EncryptTool.m in Sources */,
+				48F814F21E9C5CAA00DF0516 /* UITextView+Placeholder.m in Sources */,
 				48CCBA4D1E6EF3E30000986F /* UIView+Size.m in Sources */,
 				48CCBA691E6F941A0000986F /* CookieTool.m in Sources */,
 				48CCBA551E6F8DF90000986F /* KeychainTool.m in Sources */,
@@ -349,6 +360,7 @@
 				48EA08DC1E6FC2C600125A2D /* ImageTool.m in Sources */,
 				48EA08D61E6FC1AF00125A2D /* DateTool.m in Sources */,
 				48CCBA5B1E6F8EFB0000986F /* RSAEncryptorTool.m in Sources */,
+				48F814F51E9C5D2A00DF0516 /* NSString+RandomKey.m in Sources */,
 				48EA08D91E6FC26600125A2D /* ColorTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
