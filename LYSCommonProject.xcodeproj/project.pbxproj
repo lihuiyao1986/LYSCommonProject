@@ -27,6 +27,7 @@
 		48D661F21E7009BF00BEA9C0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 48D661EC1E7009BF00BEA9C0 /* LICENSE */; };
 		48D661F31E7009BF00BEA9C0 /* NinaSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D661EF1E7009BF00BEA9C0 /* NinaSelectionView.m */; };
 		48D661F41E7009BF00BEA9C0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 48D661F11E7009BF00BEA9C0 /* README.md */; };
+		48E64A911E9CD1BD008C15D4 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E64A901E9CD1BD008C15D4 /* HMSegmentedControl.m */; };
 		48EA08D01E6FC08800125A2D /* FileTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08CF1E6FC08800125A2D /* FileTools.m */; };
 		48EA08D31E6FC13600125A2D /* StringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08D21E6FC13600125A2D /* StringTool.m */; };
 		48EA08D61E6FC1AF00125A2D /* DateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA08D51E6FC1AF00125A2D /* DateTool.m */; };
@@ -81,6 +82,8 @@
 		48D661EF1E7009BF00BEA9C0 /* NinaSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinaSelectionView.m; sourceTree = "<group>"; };
 		48D661F01E7009BF00BEA9C0 /* UIParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIParameter.h; sourceTree = "<group>"; };
 		48D661F11E7009BF00BEA9C0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		48E64A8F1E9CD1BD008C15D4 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		48E64A901E9CD1BD008C15D4 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 		48EA08CE1E6FC08800125A2D /* FileTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTools.h; sourceTree = "<group>"; };
 		48EA08CF1E6FC08800125A2D /* FileTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTools.m; sourceTree = "<group>"; };
 		48EA08D11E6FC13600125A2D /* StringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringTool.h; sourceTree = "<group>"; };
@@ -230,6 +233,7 @@
 		48D661EA1E7009BF00BEA9C0 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				48E64A8E1E9CD1BD008C15D4 /* HMSegmentedControl */,
 				48D661EB1E7009BF00BEA9C0 /* NinaSelectionView */,
 			);
 			path = Vendor;
@@ -253,6 +257,15 @@
 				48D661F01E7009BF00BEA9C0 /* UIParameter.h */,
 			);
 			path = NinaSelectionView;
+			sourceTree = "<group>";
+		};
+		48E64A8E1E9CD1BD008C15D4 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				48E64A8F1E9CD1BD008C15D4 /* HMSegmentedControl.h */,
+				48E64A901E9CD1BD008C15D4 /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
 			sourceTree = "<group>";
 		};
 		48EA08DD1E6FC2EB00125A2D /* Frameworks */ = {
@@ -351,6 +364,7 @@
 				48CCBA581E6F8E8F0000986F /* EncryptTool.m in Sources */,
 				48F814F21E9C5CAA00DF0516 /* UITextView+Placeholder.m in Sources */,
 				48CCBA4D1E6EF3E30000986F /* UIView+Size.m in Sources */,
+				48E64A911E9CD1BD008C15D4 /* HMSegmentedControl.m in Sources */,
 				48CCBA691E6F941A0000986F /* CookieTool.m in Sources */,
 				48CCBA551E6F8DF90000986F /* KeychainTool.m in Sources */,
 				48EA08D31E6FC13600125A2D /* StringTool.m in Sources */,
