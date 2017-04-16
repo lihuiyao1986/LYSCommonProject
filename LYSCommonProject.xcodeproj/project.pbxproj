@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4824599D1EA31844005CA399 /* UITextField+BottomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824599C1EA31844005CA399 /* UITextField+BottomBorder.m */; };
+		482459A01EA318EC005CA399 /* UIImage+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824599F1EA318EC005CA399 /* UIImage+Gradient.m */; };
 		48CCBA351E6EF3A90000986F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA341E6EF3A90000986F /* main.m */; };
 		48CCBA381E6EF3A90000986F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA371E6EF3A90000986F /* AppDelegate.m */; };
 		48CCBA3B1E6EF3A90000986F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA3A1E6EF3A90000986F /* ViewController.m */; };
@@ -43,6 +45,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4824599B1EA31844005CA399 /* UITextField+BottomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BottomBorder.h"; sourceTree = "<group>"; };
+		4824599C1EA31844005CA399 /* UITextField+BottomBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BottomBorder.m"; sourceTree = "<group>"; };
+		4824599E1EA318EC005CA399 /* UIImage+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gradient.h"; sourceTree = "<group>"; };
+		4824599F1EA318EC005CA399 /* UIImage+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gradient.m"; sourceTree = "<group>"; };
 		48CCBA301E6EF3A90000986F /* LYSCommonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSCommonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48CCBA341E6EF3A90000986F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48CCBA361E6EF3A90000986F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -169,6 +175,10 @@
 		48CCBA4A1E6EF3C80000986F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				4824599E1EA318EC005CA399 /* UIImage+Gradient.h */,
+				4824599F1EA318EC005CA399 /* UIImage+Gradient.m */,
+				4824599B1EA31844005CA399 /* UITextField+BottomBorder.h */,
+				4824599C1EA31844005CA399 /* UITextField+BottomBorder.m */,
 				48E64A931E9CD316008C15D4 /* UITableView+Extension.h */,
 				48E64A941E9CD316008C15D4 /* UITableView+Extension.m */,
 				48CCBA641E6F91CC0000986F /* NSData+AES.h */,
@@ -365,7 +375,9 @@
 				48CCBA381E6EF3A90000986F /* AppDelegate.m in Sources */,
 				48EA08E81E6FC5F000125A2D /* UIView+LYS.m in Sources */,
 				48CCBA351E6EF3A90000986F /* main.m in Sources */,
+				4824599D1EA31844005CA399 /* UITextField+BottomBorder.m in Sources */,
 				48CCBA711E6FA2550000986F /* NSObject+ScaleFrame.m in Sources */,
+				482459A01EA318EC005CA399 /* UIImage+Gradient.m in Sources */,
 				48CCBA581E6F8E8F0000986F /* EncryptTool.m in Sources */,
 				48F814F21E9C5CAA00DF0516 /* UITextView+Placeholder.m in Sources */,
 				48CCBA4D1E6EF3E30000986F /* UIView+Size.m in Sources */,
