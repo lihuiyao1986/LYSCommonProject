@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4824599D1EA31844005CA399 /* UITextField+BottomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824599C1EA31844005CA399 /* UITextField+BottomBorder.m */; };
 		482459A01EA318EC005CA399 /* UIImage+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824599F1EA318EC005CA399 /* UIImage+Gradient.m */; };
+		482459A61EA3A5E8005CA399 /* UIColor+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 482459A51EA3A5E8005CA399 /* UIColor+image.m */; };
 		48CCBA351E6EF3A90000986F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA341E6EF3A90000986F /* main.m */; };
 		48CCBA381E6EF3A90000986F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA371E6EF3A90000986F /* AppDelegate.m */; };
 		48CCBA3B1E6EF3A90000986F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA3A1E6EF3A90000986F /* ViewController.m */; };
@@ -49,6 +50,8 @@
 		4824599C1EA31844005CA399 /* UITextField+BottomBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BottomBorder.m"; sourceTree = "<group>"; };
 		4824599E1EA318EC005CA399 /* UIImage+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gradient.h"; sourceTree = "<group>"; };
 		4824599F1EA318EC005CA399 /* UIImage+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gradient.m"; sourceTree = "<group>"; };
+		482459A41EA3A5E8005CA399 /* UIColor+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+image.h"; sourceTree = "<group>"; };
+		482459A51EA3A5E8005CA399 /* UIColor+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+image.m"; sourceTree = "<group>"; };
 		48CCBA301E6EF3A90000986F /* LYSCommonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSCommonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48CCBA341E6EF3A90000986F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48CCBA361E6EF3A90000986F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -193,6 +196,8 @@
 				48F814F11E9C5CAA00DF0516 /* UITextView+Placeholder.m */,
 				48F814F31E9C5D2A00DF0516 /* NSString+RandomKey.h */,
 				48F814F41E9C5D2A00DF0516 /* NSString+RandomKey.m */,
+				482459A41EA3A5E8005CA399 /* UIColor+image.h */,
+				482459A51EA3A5E8005CA399 /* UIColor+image.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -382,6 +387,7 @@
 				48F814F21E9C5CAA00DF0516 /* UITextView+Placeholder.m in Sources */,
 				48CCBA4D1E6EF3E30000986F /* UIView+Size.m in Sources */,
 				48E64A951E9CD316008C15D4 /* UITableView+Extension.m in Sources */,
+				482459A61EA3A5E8005CA399 /* UIColor+image.m in Sources */,
 				48E64A911E9CD1BD008C15D4 /* HMSegmentedControl.m in Sources */,
 				48CCBA691E6F941A0000986F /* CookieTool.m in Sources */,
 				48CCBA551E6F8DF90000986F /* KeychainTool.m in Sources */,
