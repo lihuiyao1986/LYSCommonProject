@@ -10,6 +10,7 @@
 		4824599D1EA31844005CA399 /* UITextField+BottomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824599C1EA31844005CA399 /* UITextField+BottomBorder.m */; };
 		482459A01EA318EC005CA399 /* UIImage+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824599F1EA318EC005CA399 /* UIImage+Gradient.m */; };
 		482459A61EA3A5E8005CA399 /* UIColor+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 482459A51EA3A5E8005CA399 /* UIColor+image.m */; };
+		48AAEBAC1EA7678300C9E7D9 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AAEBAB1EA7678300C9E7D9 /* JRSwizzle.m */; };
 		48CCBA351E6EF3A90000986F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA341E6EF3A90000986F /* main.m */; };
 		48CCBA381E6EF3A90000986F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA371E6EF3A90000986F /* AppDelegate.m */; };
 		48CCBA3B1E6EF3A90000986F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA3A1E6EF3A90000986F /* ViewController.m */; };
@@ -52,6 +53,8 @@
 		4824599F1EA318EC005CA399 /* UIImage+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gradient.m"; sourceTree = "<group>"; };
 		482459A41EA3A5E8005CA399 /* UIColor+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+image.h"; sourceTree = "<group>"; };
 		482459A51EA3A5E8005CA399 /* UIColor+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+image.m"; sourceTree = "<group>"; };
+		48AAEBAA1EA7678300C9E7D9 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		48AAEBAB1EA7678300C9E7D9 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		48CCBA301E6EF3A90000986F /* LYSCommonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSCommonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48CCBA341E6EF3A90000986F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48CCBA361E6EF3A90000986F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,6 +134,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48AAEBA91EA7678300C9E7D9 /* JRSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				48AAEBAA1EA7678300C9E7D9 /* JRSwizzle.h */,
+				48AAEBAB1EA7678300C9E7D9 /* JRSwizzle.m */,
+			);
+			path = JRSwizzle;
+			sourceTree = "<group>";
+		};
 		48CCBA271E6EF3A90000986F = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +265,7 @@
 		48D661EA1E7009BF00BEA9C0 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				48AAEBA91EA7678300C9E7D9 /* JRSwizzle */,
 				48E64A8E1E9CD1BD008C15D4 /* HMSegmentedControl */,
 				48D661EB1E7009BF00BEA9C0 /* NinaSelectionView */,
 			);
@@ -395,6 +408,7 @@
 				48CCBA661E6F91CC0000986F /* NSData+AES.m in Sources */,
 				48EA08E51E6FC4FF00125A2D /* JSONTool.m in Sources */,
 				48CCBA621E6F91870000986F /* GTMBase64.m in Sources */,
+				48AAEBAC1EA7678300C9E7D9 /* JRSwizzle.m in Sources */,
 				48EA08DC1E6FC2C600125A2D /* ImageTool.m in Sources */,
 				48EA08D61E6FC1AF00125A2D /* DateTool.m in Sources */,
 				48CCBA5B1E6F8EFB0000986F /* RSAEncryptorTool.m in Sources */,
