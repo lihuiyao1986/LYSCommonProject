@@ -11,6 +11,8 @@
 		482459A01EA318EC005CA399 /* UIImage+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824599F1EA318EC005CA399 /* UIImage+Gradient.m */; };
 		482459A61EA3A5E8005CA399 /* UIColor+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 482459A51EA3A5E8005CA399 /* UIColor+image.m */; };
 		48AAEBAC1EA7678300C9E7D9 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AAEBAB1EA7678300C9E7D9 /* JRSwizzle.m */; };
+		48AAEC251EA7959B00C9E7D9 /* GCDQueueUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AAEC221EA7959B00C9E7D9 /* GCDQueueUtil.m */; };
+		48AAEC261EA7959B00C9E7D9 /* RunTimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AAEC241EA7959B00C9E7D9 /* RunTimeUtils.m */; };
 		48CCBA351E6EF3A90000986F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA341E6EF3A90000986F /* main.m */; };
 		48CCBA381E6EF3A90000986F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA371E6EF3A90000986F /* AppDelegate.m */; };
 		48CCBA3B1E6EF3A90000986F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CCBA3A1E6EF3A90000986F /* ViewController.m */; };
@@ -55,6 +57,10 @@
 		482459A51EA3A5E8005CA399 /* UIColor+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+image.m"; sourceTree = "<group>"; };
 		48AAEBAA1EA7678300C9E7D9 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		48AAEBAB1EA7678300C9E7D9 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		48AAEC211EA7959B00C9E7D9 /* GCDQueueUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDQueueUtil.h; sourceTree = "<group>"; };
+		48AAEC221EA7959B00C9E7D9 /* GCDQueueUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDQueueUtil.m; sourceTree = "<group>"; };
+		48AAEC231EA7959B00C9E7D9 /* RunTimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTimeUtils.h; sourceTree = "<group>"; };
+		48AAEC241EA7959B00C9E7D9 /* RunTimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTimeUtils.m; sourceTree = "<group>"; };
 		48CCBA301E6EF3A90000986F /* LYSCommonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSCommonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48CCBA341E6EF3A90000986F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48CCBA361E6EF3A90000986F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -217,6 +223,10 @@
 		48CCBA4F1E6F8D960000986F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				48AAEC211EA7959B00C9E7D9 /* GCDQueueUtil.h */,
+				48AAEC221EA7959B00C9E7D9 /* GCDQueueUtil.m */,
+				48AAEC231EA7959B00C9E7D9 /* RunTimeUtils.h */,
+				48AAEC241EA7959B00C9E7D9 /* RunTimeUtils.m */,
 				48CCBA6E1E6F9EC80000986F /* GlobalFn.h */,
 				48CCBA6D1E6F9E9F0000986F /* Singleton.h */,
 				48CCBA5C1E6F91870000986F /* GTMBase64 */,
@@ -402,7 +412,9 @@
 				48E64A951E9CD316008C15D4 /* UITableView+Extension.m in Sources */,
 				482459A61EA3A5E8005CA399 /* UIColor+image.m in Sources */,
 				48E64A911E9CD1BD008C15D4 /* HMSegmentedControl.m in Sources */,
+				48AAEC261EA7959B00C9E7D9 /* RunTimeUtils.m in Sources */,
 				48CCBA691E6F941A0000986F /* CookieTool.m in Sources */,
+				48AAEC251EA7959B00C9E7D9 /* GCDQueueUtil.m in Sources */,
 				48CCBA551E6F8DF90000986F /* KeychainTool.m in Sources */,
 				48EA08D31E6FC13600125A2D /* StringTool.m in Sources */,
 				48CCBA661E6F91CC0000986F /* NSData+AES.m in Sources */,
